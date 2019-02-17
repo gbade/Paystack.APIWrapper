@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Paystack.APIWrapper", "Paystack.APIWrapper\Paystack.APIWrapper.csproj", "{BD7E3481-2523-4A43-BBF1-FDD808B94C8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paystack.Entities", "Paystack.Entities\Paystack.Entities.csproj", "{72E51AAB-C491-4B3A-87B9-22B30491732F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paystack.Business", "Paystack.Services\Paystack.Business.csproj", "{3FE601CE-607C-4360-8EBA-474315261D71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD7E3481-2523-4A43-BBF1-FDD808B94C8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD7E3481-2523-4A43-BBF1-FDD808B94C8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD7E3481-2523-4A43-BBF1-FDD808B94C8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD7E3481-2523-4A43-BBF1-FDD808B94C8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72E51AAB-C491-4B3A-87B9-22B30491732F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72E51AAB-C491-4B3A-87B9-22B30491732F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72E51AAB-C491-4B3A-87B9-22B30491732F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72E51AAB-C491-4B3A-87B9-22B30491732F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FE601CE-607C-4360-8EBA-474315261D71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FE601CE-607C-4360-8EBA-474315261D71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FE601CE-607C-4360-8EBA-474315261D71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FE601CE-607C-4360-8EBA-474315261D71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6CF7566-A48F-44E8-8E6C-206A59633D4C}
+	EndGlobalSection
+EndGlobal
